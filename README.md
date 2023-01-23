@@ -1,4 +1,4 @@
-# RANSOMWARE BOO!
+# RANSOMWARE!
 ## I mean seriously, you just scanned this random QR with no hesitation?
 What did you think was going to happen? You thought you were going to get some free videogame or something?
 
