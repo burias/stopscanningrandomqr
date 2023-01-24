@@ -1,3 +1,7 @@
+---
+title: "Ransomware encrypting files..."
+---
+
 # Ransomware encrypting files...
 
 
