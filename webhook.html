@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your GitHub Page</title>
+</head>
+<body>
+    <h1>Hello, world!</h1>
+    
+    <script>
+    window.onload = function() {
+        const url = 'https://your-api-url.com/endpoint';
+        const data = { key1: 'value1', key2: 'value2' }; // Your data
+
+        fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                // 'Authorization': 'Bearer ' + token // if you have a token
+            },
+            body: JSON.stringify(data) // body data type must match "Content-Type" header
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log(data);
+            // Do something with the data...
+        })
+        .catch((error) => {
+          console.error('Error:', error);
+        });
+    }
+    </script>
+</body>
+</html>
